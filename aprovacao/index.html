@@ -237,7 +237,7 @@ const STATUSES = [
   {k:"publicado", l:"Publicado"},
 ];
 const ST = Object.fromEntries(STATUSES.map((s,i)=>[s.k,{...s,i}]));
-const PILARES = ["Antes e depois","Raio-X","História que ninguém contou","Mercado sem filtro","Para mandar pro cliente","Olho treinado","Opinião com nome","Bastidor (humor)","Enquete","Agenda"];
+const PILARES = ["Antes e depois","Raio-X","História que ninguém contou","Mercado sem filtro","Para mandar pro cliente","Olho treinado","Opinião com nome","Bastidor (humor)","Enquete","Agenda","Frase","Ferramentas","Inspiração"];
 const FORMATOS = {carrossel:"Carrossel", reels:"Reels", post:"Post único", stories:"Stories"};
 const PUBLICOS = {designers:"Designers", clientes:"Clientes", curiosos:"Curiosos de cultura visual"};
 const OBJETIVOS = ["Reconhecimento","Tráfego","Engajamento","Mensagens","Leads","Vendas"];
@@ -346,7 +346,7 @@ function renderEditor(){
   let copy = "";
   if(d.formato==="carrossel"){
     const n = d.slides.length;
-    copy = `<section class="blk"><h3>Slides <small>${n} slides · ideal 7 a 10</small></h3>
+    copy = `<section class="blk"><h3>Slides <small>${n} slides · portal: 3 a 6 · educativo: 7 a 10</small></h3>
       <div class="slides">${d.slides.map((s,i)=>`<div class="slide">
         <div class="sn"><b>${i+1}</b><span class="role">${slideRole(i,n)}</span></div>
         <div class="fields">
@@ -415,9 +415,9 @@ function renderEditor(){
     <div class="body">
       <div class="main-col">
         ${copy}
-        <section class="blk"><h3>Legenda <small>80 a 200 palavras · primeira linha funciona sozinha</small></h3>
+        <section class="blk"><h3>Legenda <small>portal: 30 a 120 palavras · primeira linha funciona sozinha</small></h3>
           <textarea class="ta" id="legenda" data-f="legenda" style="min-height:150px" placeholder="Complementa a peça, não repete os slides." ${ro}>${esc(d.legenda)}</textarea>
-          <span class="hint ${legW&&(legW<80||legW>200)?"bad":legW?"good":""}">${legW} palavras</span></section>
+          <span class="hint ${legW&&(legW<30||legW>200)?"bad":legW?"good":""}">${legW} palavras</span></section>
         <div class="grid-fields" style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr))">
           <label class="f">CTA<input id="cta" data-f="cta" value="${esc(d.cta)}" placeholder="Manda pro cliente que pediu 'algo moderno'." ${ro}></label>
           <label class="f">Hashtags (3 a 6, específicas)<input id="tags" class="mono" data-f="hashtags" value="${esc(d.hashtags)}" placeholder="#brandingbr #identidadevisual" ${ro}>

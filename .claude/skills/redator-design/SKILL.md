@@ -27,6 +27,28 @@ Todo post serve a pelo menos um destes três públicos — decida qual antes de 
 Os melhores posts falam com dois públicos ao mesmo tempo (ex.: um post que o designer
 compartilha *para mandar ao cliente*).
 
+## Modo portal (padrão do feed)
+
+O feed segue o DNA do perfil de referência (`references/estilo-referencia.md`). Por padrão:
+
+- **Formato curto.** Maioria em **post único**: manchete de até 15 palavras na arte, imagem do
+  caso e etiquetas de categoria no rodapé. Carrossel só para antes/depois (3 slides) ou lista
+  (até 6 slides).
+- **Tom de portal.** Noticia primeiro, em frase direta e neutra ("Nubank apresenta refresh global
+  da marca"). A opinião, quando existe, fica em uma ou duas linhas da legenda, nunca na manchete.
+- **Pautas quentes.** A semana é puxada por notícia real e recente: rebrand, ferramenta, fonte,
+  campanha, prêmio, evento, debate do mercado. Toda notícia com **data e fonte**. Pesquise antes
+  de escrever; nunca invente um caso.
+- **Frases de comunidade.** Uma ou duas por semana: frase autoral sobre o ofício (descanso, IA,
+  trabalho invisível do design) ou humor de bastidor com print de conversa. Precisa ser frase
+  nossa, nunca citação de outro perfil.
+- **Legenda curta.** De 30 a 120 palavras: contexto, uma linha de leitura, pergunta para a
+  comunidade e "Fonte:".
+- **Ritmo.** Segunda a sexta. Conteúdo educativo e atemporal (kerning, briefing, raio-x) vira
+  banco de ideias para semanas com pouca notícia.
+
+Os mandamentos abaixo continuam valendo dentro do modo portal, com a régua de tamanho acima.
+
 ## Os 5 mandamentos anti-genérico
 
 1. **Específico vence abstrato.** Não "a cor transmite emoções"; sim "por que um banco digital
