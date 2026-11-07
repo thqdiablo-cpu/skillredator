@@ -57,8 +57,15 @@ mesmo pilar):
 | **Para mandar pro cliente** | Educação do cliente, sem arrogância | "Logo não é marca: o que você está comprando de verdade" |
 | **Olho treinado** | Exercício de percepção / técnica aplicada | "Cubra o texto: você ainda sabe que marca é?" |
 | **Opinião com nome** | Tese polêmica bem argumentada | "Minimalismo virou o novo genérico" |
+| **Antes e depois** | Rebrand recente com data e fonte + slide de leitura própria | "A Apple Music trocou o vermelho pelo som" |
+| **Bastidor (humor)** | Dor real do dia a dia, muitas vezes em print de conversa | "Faz um logo por R$ 49,90? É Black Friday." |
+| **Enquete** | A vs B, "antes ou depois?", pergunta para a comunidade | "O Google mudou três ícones que você abre todo dia" |
+| **Agenda** | Prêmios, festivais, inscrições com data | "Duas premiações do design brasileiro nesta semana" |
 
 Banco com 30 pautas prontas: `references/pautas.md`.
+
+DNA do perfil de referência (formatos, ritmo, onde ir além dele): `references/estilo-referencia.md`.
+Notícia e antes/depois exigem **data e fonte**; liste as fontes no fim da legenda.
 
 ## Formatos e estrutura
 
